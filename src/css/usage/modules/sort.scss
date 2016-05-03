@@ -1,0 +1,93 @@
+.sortWrap{
+  @include flexbox(flex);
+  @include flex-direction(column);
+  @include flex(1);
+  width:100%;
+  overflow: hidden;
+  header{
+    width:100%;height:.44rem;
+    background:#f8f8f8;
+    font-size:.14rem;
+    color:#ababab;
+    font-weight: bolder;
+    position: relative;
+    z-index: 999;
+    @include box-sizing(border-box);
+    @include border(1px 0, #d0e2e0);
+    @include flexbox(flex);
+    @include align-items(center);
+    @include justify-content(center);
+  }
+      section{
+        @include flexbox(flex);
+        @include flex-direction(column);
+        background: #fff;
+        overflow: hidden;
+        padding:0 0.04rem;
+        padding-bottom:.44rem;
+          .sortSectionUlFirst{
+           @include flexbox(flex);
+           @include box-sizing(border-box);
+           @include border(0 0 1px 0, #d7d5d9);
+            width: 100%;
+            li{
+              @include align-items(center);
+              @include justify-content(center);
+              @include flexbox(flex);
+              font-size:.14rem;
+              color:#a3a3a3;
+              &:not(:nth-child(2)){
+                 @include flex(1);
+                text-align: center;
+                line-height: .39rem;
+                font-weight: bolder;
+                &.active{
+                  color:#f5bdbd;
+                }
+                span{
+                  display: block;
+                  // width: .1 rem;
+                  // height:.1rem;
+                  font-size: 0.06rem;
+                  padding-left:.2rem;
+                  margin-top:.05rem; 
+                }
+              }
+            }
+          }
+          .sortSectionUlSecond{
+            @include flexbox(flex);
+             width: 100%;
+             li{
+               @include flexbox(flex);
+               @include flex-direction(column);
+               &:not(:nth-child(2)) {
+                 @include flex(1);
+               }
+               &:nth-child(2) {
+                 width: .03rem;
+               }
+               b ,span{
+                 display: block;
+               }
+              img {
+                  display: block;
+                  width: 100%;
+                 }
+               b{
+                 font-size: .10rem;
+                 color:#cbcbcb;
+                 font-weight: normal;
+                 text-align: center;
+                 @include ellipsis(true);
+               }
+               span{
+                 text-align: center;
+                 font-size: .10rem;
+                 color:#f5bdbd;
+               }
+             }
+          }
+
+      }
+}

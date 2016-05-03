@@ -1,0 +1,35 @@
+<div id="cartWrap">
+    <header>购物车</header>
+    <section class="cartWrapSection">
+        <div class="emptyCart">
+            <img src="/clothesPoint/src/img/emptyCart.jpg">
+            <img src="/clothesPoint/src/img/go.jpg">
+        </div>
+        <div class="popular">今日最受歡迎</div>
+        <div  id="cartScroll">
+          <ul class="cartUl">
+              <li>
+                  <img src="/clothesPoint/src/img/popularImg1.jpg">
+                  <i>印花荷葉袖連衣裙</i>
+                  <b>￥198.00</b>
+              </li>
+              <li>
+                  <img src="/clothesPoint/src/img/popularImg2.jpg">
+                  <i>黑色九分阔脚裤</i>
+                  <b>￥148.00</b>
+              </li>
+              <li>
+                  <img src="/clothesPoint/src/img/popularImg3.jpg">
+                  <i>白色立领衬衫</i>
+                  <b>￥138.00</b>
+              </li>
+              <li>
+                  <img src="/clothesPoint/src/img/popularImg1.jpg">
+                  <i>印花荷葉袖連衣裙</i>
+                  <b>￥198.00</b>
+              </li>
+          </ul>
+        </div>
+
+    </section>
+</div>

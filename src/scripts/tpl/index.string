@@ -1,0 +1,24 @@
+<div class="totalWrap">
+    <div class="totalBody "></div>
+    <footer>
+      <ul>
+      <li class="active" action-type="tap.switch" data-tag="firstPage">
+        <i class="yo-ico">&#xe62f;</i>
+        <b>首页</b>
+      </li>
+      <li  action-type="tap.switch" data-tag="sort">
+        <i class="yo-ico">&#xe603;</i>
+        <b>分类</b>
+      </li>
+      <li action-type="tap.switch" data-tag="cart">
+        <i class="yo-ico" >&#xeaf7;</i>
+        <b>购物车</b>
+      </li>
+      <li action-type="tap.switch" data-tag="my">
+        <i class="yo-ico" >&#xe65c;</i>
+        <b>我的</b>
+      </li>
+    </ul>
+  </footer>
+
+</div>

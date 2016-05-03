@@ -1,0 +1,29 @@
+<div class="myWrap">
+    <header>
+        <div class="myHeaderdFirst">
+            <img src="/clothesPoint/src/img/myheaderfirst.jpg">
+        </div>
+        <div class="myHeaderdSecond">
+            <b>会员昵称</b>
+            <ul>
+              <li>新会员</li>
+              <li>|</li>
+              <li>0&nbsp;积分</li>
+            </ul>
+        </div>
+        <div class="myHeaderdThird">
+            <div class="qiandao">签到</div>
+            <div class="wanshan">完善信息
+                <span>+...</span>
+                <i>积分</i>
+                <img src="/clothesPoint/src/img/mywanshan.jpg">
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="myFirstSection"></div>
+        <div class="mySecondSection"></div>
+        <div class="myThreeSection"></div>
+    </section>
+
+</div>

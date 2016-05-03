@@ -1,0 +1,11 @@
+$font-heiti-light: Heiti SC Light, Helvetica Neue, Helvetica, STHeiTi, sans-serif;
+$font-heiti-medium: Heiti SC Medium, Heiti SC Light, Helvetica Neue, Helvetica, STHeiTi, sans-serif;
+
+@font-face {
+  font-family: yofont;
+  src: url("/clothesPoint/fonts/iconfont.woff") format("woff"), url("/clothesPoint/fonts/iconfont.ttf") format("truetype");
+}
+
+body {
+	background-color: #f8f8f8 !important;
+}

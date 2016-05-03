@@ -1,0 +1,114 @@
+
+<header>
+    <i><img src="/clothesPoint/src/img/logo.jpg"></i>
+</header>
+<div id="index-scroll">
+  <div class="scrollWrap">
+      <div class="banner swiper-container" id="index-swiper">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                  <img src="/clothesPoint/src/img/banner1.jpg">
+              </div>
+              <div class="swiper-slide">
+                <img src="/clothesPoint/src/img/banner2.jpg">
+              </div>
+              <div class="swiper-slide">
+                <img src="/clothesPoint/src/img/banner.jpg">
+              </div>
+              <div class="swiper-slide">
+                <img src="/clothesPoint/src/img/banner4.jpg">
+              </div>
+              <div class="swiper-slide">
+                <img src="/clothesPoint/src/img/banner5.jpg">
+              </div>
+
+          </div>
+    </div>
+
+    <nav>
+      <ul>
+          <li>
+              <img src="/clothesPoint/src/img/nav1.jpg">
+              <b>签到</b>
+          </li>
+          <li>
+              <img src="/clothesPoint/src/img/nav2.jpg">
+              <b>新品</b>
+          </li>
+          <li>
+              <img src="/clothesPoint/src/img/nav3.jpg">
+              <b>穿搭</b>
+          </li>
+          <li>
+              <img src="/clothesPoint/src/img/nav4.jpg">
+              <b>买家秀</b>
+          </li>
+          <li>
+              <img src="/clothesPoint/src/img/nav5.jpg">
+              <b>遇见</b>
+          </li>
+      </ul>
+    </nav>
+    <section>
+      <div class="sectionWrap">
+          <div class="sectionFirstList">
+              <div>
+                  <img src="/clothesPoint/src/img/sectionFirstList1.jpg">
+              </div>
+              <div>
+                  <img src="/clothesPoint/src/img/sectionFirstList2.jpg">
+              </div>
+              <div>
+                  <img src="/clothesPoint/src/img/sectionFirstList3.jpg">
+              </div>
+
+          </div>
+          <div class="sectionSecondList">
+      				<ul>
+      						<li><img src="/clothesPoint/src/img/sectionSecondList1.jpg"></li>
+      						<li></li>
+      						<li><img src="/clothesPoint/src/img/sectionSecondList2.jpg"></li>
+      				</ul>
+      				<ul>
+      						<li><img src="/clothesPoint/src/img/sectionSecondList3.jpg"></li>
+      						<li></li>
+      						<li><img src="/clothesPoint/src/img/sectionSecondList4.jpg"></li>
+      				</ul>
+      		</div>
+          <div class="sectionThirdList">
+              <ul class="sectionThirdList-firstUl">
+                  <li class="active">流行新品</li>
+                  <li>|</li>
+                  <li>人气热销</li>
+              </ul>
+              <ul class="sectionThirdList-secondUl">
+                  <li>
+                      <i><img src="/clothesPoint/src/img/sectionThirdList-secondUl1.jpg"></i>
+                      <b>高端棉圆领短袖T恤&nbsp;黑灰白三色黑灰白三色黑灰白三色</b>
+                      <span>￥68.0<span class="oldPrice">￥88.0</span></span>
+                  </li>
+                  <li></li>
+                  <li>
+                      <i><img src="/clothesPoint/src/img/sectionThirdList-secondUl1.jpg"></i>
+                      <b>高端棉圆领短袖T恤&nbsp;黑灰白三色黑灰白三色黑灰白三色</b>
+                      <span class="price">￥68.0<span class="oldPrice">￥88.0</span></span>
+                  </li>
+              </ul>
+              <ul class="sectionThirdList-secondUl">
+                  <li>
+                      <i><img src="/clothesPoint/src/img/sectionThirdList-secondUl1.jpg"></i>
+                      <b>高端棉圆领短袖T恤&nbsp;黑灰白三色黑灰白三色黑灰白三色</b>
+                      <span>￥68.0<span class="oldPrice">￥88.0</span></span>
+                  </li>
+                  <li></li>
+                  <li>
+                      <i><img src="/clothesPoint/src/img/sectionThirdList-secondUl1.jpg"></i>
+                      <b>高端棉圆领短袖T恤&nbsp;黑灰白三色黑灰白三色黑灰白三色</b>
+                      <span class="price">￥68.0<span class="oldPrice">￥88.0</span></span>
+                  </li>
+              </ul>
+          </div>
+      </div>
+    </section>
+  </div>
+</div>
