@@ -17,7 +17,7 @@
         background:#f8f8f8;
         width:100%;height:.44rem;
         font-size:.14rem;
-        color:#ababab;
+        color: rgba(0,0,0,.6);
         font-weight: bolder;
         }
         .cartWrapSection{
@@ -50,7 +50,7 @@
             height:.22rem;
             background:#ebebeb;
             font-size: .12rem;
-            color:#b3b2b2;
+            color: rgba(0,0,0,.6);
             font-weight: bolder;
           }
           >div{
@@ -68,7 +68,7 @@
                   }
                   i{
                     font-size:.1rem;
-                    color:#cacaca;
+                    color: rgba(0,0,0,.6);
                    @include ellipsis(true);
                   }
                   b{

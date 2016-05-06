@@ -4,13 +4,14 @@
       @include flexbox(flex);
       @include flex-direction(column);
       @include flex(1);
-      width:100%;height: 100%;
+      width:100%;
       overflow: hidden;
       header{
         @include flexbox(flex);
         width:100%;
         height:1rem;
         background:#fc7bac;
+        @include justify-content(space-around);
         .myHeaderdFirst{
               @include flexbox(flex);
               // width:.5rem;
@@ -77,7 +78,132 @@
         }
       }
       section{
-
+        @include flexbox(flex);
+        @include flex-direction(column);
+        padding:0 0.07rem 0.44rem 0.07rem;
+        background: #fff;
+        .myFirstSection{
+          width: 100%;
+          @include flexbox(flex);
+          @include flex-direction(column);
+          // background: #fff;
+          .myOrder{
+            width: 100%;
+            @include flexbox(flex);
+            @include border(0 0 1px 0, #d0e2e0);
+            @include justify-content(space-between);
+            height: .37rem;
+            line-height: .37rem;
+            span{
+              display: block;
+              font-size: .12rem;
+              color: rgba(0,0,0,.6);
+            }
+            i,b{
+              font-size: .14rem;
+            color: rgba(0,0,0,.6);
+            }
+          }
+          .myFirstUl{
+             @include flexbox(flex);
+             padding-left: .03rem;
+             padding-right: .03rem;
+            li{
+                @include flex(1);
+                @include align-items(center);
+                @include justify-content(center);
+                padding:.1rem .15rem .1rem .15rem;
+                i{
+                  @include flexbox(flex);
+                  @include justify-content(center);
+                  @include align-items(center);
+                  img{
+                     width:80%;
+                  }
+                }
+                b{
+                  display: block;
+                  font-size: .12rem;
+                  color: rgba(0,0,0,.6);
+                  font-weight: normal;
+                  line-height: .28rem;
+                  text-align: center;
+                }
+            }
+          }
+        }
+        .kong{
+          width: 100%;height:.07rem;
+          background:#f8f8f8;
+          position: absolute;
+          left:0;right: 0;
+        }
+        .mySecondSection{
+          width: 100%;
+          @include flexbox(flex);
+          @include flex-direction(column);
+          margin-top: .07rem;
+          .myMoney{
+            width: 100%;
+            @include flexbox(flex);
+            @include border(0 0 1px 0, #d0e2e0);
+            @include justify-content(space-between);
+            @include align-items(center);
+            font-size: .12rem;
+            color: rgba(0,0,0,.6);
+            height: .37rem;
+          }
+          .mySecondUl{
+            width: 100%;
+            @include flexbox(flex);
+            li{
+              width: 100%;
+              @include flex(1);
+              @include align-items(center);
+              @include justify-content(center);
+              padding: 0.1rem .22rem;
+              i{
+                display: block;
+                width: 100%;
+                @include flexbox(flex);
+                @include justify-content(center);
+                @include align-items(center);
+                img{
+                    display: block;
+                    width:70%;
+                }
+              }
+              b{
+                display: block;
+                font-size: .12rem;
+                color: rgba(0,0,0,.6);
+                font-weight: normal;
+                line-height: .28rem;
+                text-align: center;
+              }
+            }
+          }
+        }
+        .myThirdSection{
+          width: 100%;
+          @include flexbox(flex);
+          @include flex-direction(column);
+          margin-top: .07rem;
+          .myThirdUl{
+            width: 100%;
+            @include flexbox(flex);
+            @include flex-direction(column);
+            li{
+              @include flexbox(flex);
+              @include border(0 0 1px 0, #d0e2e0);
+              @include justify-content(space-between);
+              width: 100%;
+              line-height: .39rem;
+              font-size: .12rem;
+              color: rgba(0,0,0,.6);
+            }
+          }
+        }
       }
     }
   }

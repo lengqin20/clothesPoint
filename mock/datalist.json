@@ -1,0 +1,42 @@
+{
+  "ret":0,
+  "errorcode":"",
+  "data":[
+    {
+      "img":"/clothesPoint/src/img/sectionThirdList-secondUl1.jpg",
+      "title":"1高端圆领短袖T袖 黑灰白三色",
+      "price":"￥68.0",
+      "oldPrice":"￥88.0"
+    },
+    {
+      "img":"/clothesPoint/src/img/sectionThirdList-secondUl1.jpg",
+      "title":"2高端圆领短袖T袖 黑灰白三色",
+      "price":"￥68.0",
+      "oldPrice":"￥88.0"
+    },
+    {
+      "img":"/clothesPoint/src/img/sectionThirdList-secondUl1.jpg",
+      "title":"3高端圆领短袖T袖 黑灰白三色",
+      "price":"￥68.0",
+      "oldPrice":"￥88.0"
+    },
+    {
+      "img":"/clothesPoint/src/img/sectionThirdList-secondUl1.jpg",
+      "title":"4高端圆领短袖T袖 黑灰白三色",
+      "price":"￥68.0",
+      "oldPrice":"￥88.0"
+    },
+    {
+      "img":"/clothesPoint/src/img/sectionThirdList-secondUl1.jpg",
+      "title":"5高端圆领短袖T袖 黑灰白三色",
+      "price":"￥68.0",
+      "oldPrice":"￥88.0"
+    },
+    {
+      "img":"/clothesPoint/src/img/sectionThirdList-secondUl1.jpg",
+      "title":"6高端圆领短袖T袖 黑灰白三色",
+      "price":"￥68.0",
+      "oldPrice":"￥88.0"
+    }
+  ]
+}

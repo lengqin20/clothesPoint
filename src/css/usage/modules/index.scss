@@ -174,11 +174,9 @@ body{background: #f8f8f8 !important;}
                     li{
                       @include flexbox(flex);
                       @include flex-direction(column);
-                      &:not(:nth-child(2)) {
-                        @include flex(1);
-                      }
-                      &:nth-child(2) {
-                        width: .03rem;
+                      @include flex(1);
+                      &:nth-child(1) {
+                        margin-right: .03rem;
                       }
                       i,b {
                         display: block;
@@ -197,11 +195,11 @@ body{background: #f8f8f8 !important;}
                         text-align: center;
                         font-size: .10rem;
                         color:#f5bdbd;
-                        .oldPrice{
-                          font-size: 0.08rem;
-                          color:#cbcbcb;
-                          text-decoration: line-through;
-                        }
+                      }
+                      .oldPrice{
+                        font-size: 0.08rem;
+                        color:#cbcbcb;
+                        text-decoration: line-through;
                       }
                     }
                   }

@@ -81,31 +81,21 @@
                   <li>|</li>
                   <li>人气热销</li>
               </ul>
-              <ul class="sectionThirdList-secondUl">
-                  <li>
-                      <i><img src="/clothesPoint/src/img/sectionThirdList-secondUl1.jpg"></i>
-                      <b>高端棉圆领短袖T恤&nbsp;黑灰白三色黑灰白三色黑灰白三色</b>
-                      <span>￥68.0<span class="oldPrice">￥88.0</span></span>
+              <ul class="sectionThirdList-secondUl" ms-repeat="datalist">
+                  <li ms-repeat-item="el">
+                      <i><img ms-src="item.img"></i>
+                      <b ms-text="item.title"></b>
+                      <span>
+                        <span ms-text="item.price"></span>
+                        <span class="oldPrice" ms-text="item.oldPrice"></span>
+                      </span>
+
                   </li>
-                  <li></li>
-                  <li>
-                      <i><img src="/clothesPoint/src/img/sectionThirdList-secondUl1.jpg"></i>
-                      <b>高端棉圆领短袖T恤&nbsp;黑灰白三色黑灰白三色黑灰白三色</b>
-                      <span class="price">￥68.0<span class="oldPrice">￥88.0</span></span>
-                  </li>
-              </ul>
-              <ul class="sectionThirdList-secondUl">
-                  <li>
-                      <i><img src="/clothesPoint/src/img/sectionThirdList-secondUl1.jpg"></i>
-                      <b>高端棉圆领短袖T恤&nbsp;黑灰白三色黑灰白三色黑灰白三色</b>
-                      <span>￥68.0<span class="oldPrice">￥88.0</span></span>
-                  </li>
-                  <li></li>
-                  <li>
-                      <i><img src="/clothesPoint/src/img/sectionThirdList-secondUl1.jpg"></i>
-                      <b>高端棉圆领短袖T恤&nbsp;黑灰白三色黑灰白三色黑灰白三色</b>
-                      <span class="price">￥68.0<span class="oldPrice">￥88.0</span></span>
-                  </li>
+                  <!-- <li ms-repeat-item="el">
+                      <i><img ms-src="item.img"></i>
+                      <b ms-text="item.title"></b>
+                      <span ms-text="item.price"><span class="oldPrice" ms-text="item.oldPrice"></span></span>
+                  </li> -->
               </ul>
           </div>
       </div>

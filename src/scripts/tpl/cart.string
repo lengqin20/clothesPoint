@@ -3,7 +3,7 @@
     <section class="cartWrapSection">
         <div class="emptyCart">
             <img src="/clothesPoint/src/img/emptyCart.jpg">
-            <img src="/clothesPoint/src/img/go.jpg">
+            <img src="/clothesPoint/src/img/go.jpg" action-type="toIndex">
         </div>
         <div class="popular">今日最受歡迎</div>
         <div  id="cartScroll">

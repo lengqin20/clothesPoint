@@ -21,9 +21,73 @@
         </div>
     </header>
     <section>
-        <div class="myFirstSection"></div>
-        <div class="mySecondSection"></div>
-        <div class="myThreeSection"></div>
+        <div class="myFirstSection">
+            <div class="myOrder">
+                <span>我的订单</span>
+                <i>查看全部<b class="yo-ico">&#xf07f;</b></i>
+            </div>
+            <ul class="myFirstUl">
+                <li>
+                    <i><img src="/clothesPoint/src/img/needpay.jpg"></i>
+                    <b>待付款</b>
+                </li>
+                <li>
+                    <i><img src="/clothesPoint/src/img/fahuo.jpg"></i>
+                    <b>待发货</b>
+                </li>
+                <li>
+                    <i><img src="/clothesPoint/src/img/receivethings.jpg"></i>
+                    <b>待收货</b>
+                </li>
+                <li>
+                    <i><img src="/clothesPoint/src/img/tui.jpg"></i>
+                    <b>退换货</b>
+                </li>
+            </ul>
+        </div>
+        <div class="kong"></div>
+        <div class="mySecondSection">
+            <div class="myMoney">我的资产</div>
+            <ul class="mySecondUl">
+                <li>
+                  <i><img src="/clothesPoint/src/img/jifen.jpg"></i>
+                  <b>积分</b>
+                </li>
+                <li>
+                  <i><img src="/clothesPoint/src/img/jifen.jpg"></i>
+                  <b>代金券</b>
+                </li>
+                <li>
+                  <i><img src="/clothesPoint/src/img/gift.jpg"></i>
+                  <b>礼物</b>
+                </li>
+            </ul>
+        </div>
+        <div class="kong"></div>
+        <div class="myThirdSection">
+            <ul class="myThirdUl">
+                <li>
+                  <span>专属闺蜜</span>
+                  <b class="yo-ico">&#xf07f;</b>
+                </li>
+                <li>
+                  <span>账户安全</span>
+                  <b class="yo-ico">&#xf07f;</b>
+                </li>
+                <li>
+                  <span>帮助中心</span>
+                  <b class="yo-ico">&#xf07f;</b>
+                </li>
+                <li>
+                  <span>意见反馈</span>
+                  <b class="yo-ico">&#xf07f;</b>
+                </li>
+                <li>
+                  <span>设置</span>
+                  <b class="yo-ico">&#xf07f;</b>
+                </li>
+            </ul>
+        </div>
     </section>
 
 </div>
